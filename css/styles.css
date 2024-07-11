@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Cabecera principal */
+.main-header{
+    order: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(115, 51, 21);
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+[src="img/logo_principal.png"]{
+    order: 1;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.main-header>h1{
+    order: 2;
+    font-size: 30px;
+}
+
+.iniciar-sesion{
+    order: 3;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+/* MENU PRINCIPAL*/
+.main-menu{
+    width: 250px;
+    padding: 5px; 
+    position: absolute;
+    height: min-content;
+    width: 15%;
+    background-color: rgb(115, 51, 21); 
+    color: black;
+    border-bottom: 5px solid black;
+}
+
+.menu-group a{
+    display: flex;
+    margin: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* iNICIO SESIÓN */
+.login table{
+    width: 25%;
+    background-color: red;
+    border: 2px dotted rgb(115, 51, 21);
+    margin: auto;
+
+    .izq{
+      text-align: right;  
+    }
+
+    .der{
+        text-align: right;
+    }
+
+    td{
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
